@@ -1,0 +1,10 @@
+/* картинка и фон в header */
+.header__main-illustration {
+  width: 765px;
+  height: 608px;
+  object-fit: fill;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  z-index: 2;
+}
