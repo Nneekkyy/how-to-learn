@@ -3,6 +3,7 @@
   text-decoration: none;
 }
 .header__link:hover {
-  background: rgb(21, 109, 109); /* Цвет фона под ссылкой */
-  color: #ffe; /* Цвет ссылки */
+  opacity: 0.5;
+  visibility: hidden;
+  transition: opacity 5s, visibility 0s linear 5s;
 }
