@@ -1,10 +1,9 @@
-.feinman__subtitle {
+.feynman__subtitle {
   margin-top: 70px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0px;
-  width: 648px;
-  height: auto;
+  max-width: 648px;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;

@@ -1,8 +1,8 @@
-/* параметры заголовка и подзаголовка feinman*/
-.feinman__title {
+/* параметры заголовка и подзаголовка feynman*/
+.feynman__title {
   position: relative;
   margin-top: 0px;
-  width: 648px;
+  max-width: 648px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0px;
