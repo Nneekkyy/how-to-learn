@@ -1,4 +1,3 @@
-/* параметры ссылки и изображения feynman */
 .feynman__link {
   position: absolute;
   right: 48px;
@@ -13,5 +12,7 @@
 .feynman__link:hover {
     opacity: 0.5;
     visibility: hidden;
+    -webkit-transition: opacity 5s, visibility 0s linear 5s;
+    -o-transition: opacity 5s, visibility 0s linear 5s;
     transition: opacity 5s, visibility 0s linear 5s;
 }

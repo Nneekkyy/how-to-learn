@@ -1,7 +1,8 @@
 .table__cell {
   width: 250px;
   margin-bottom: 60px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 .table__cell:nth-child(n+5) {
   margin-bottom: 0px;
@@ -9,5 +10,4 @@
 .tabel__cell_text-padding {
   position: relative;
   padding-top: 20px;
-
 }

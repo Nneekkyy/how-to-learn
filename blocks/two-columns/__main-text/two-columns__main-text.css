@@ -1,5 +1,8 @@
 .two-columns__main-text {
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   min-width: 784px;
   width: 80%;
   line-height: 34px;

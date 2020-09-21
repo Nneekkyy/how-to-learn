@@ -1,6 +1,6 @@
-/* блок footer */
 .footer {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   position: relative;
   padding-top: 60px;
   padding-bottom: 40px;
