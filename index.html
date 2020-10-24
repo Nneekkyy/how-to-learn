@@ -17,7 +17,6 @@
     </header>
     <main class="content">
       <section class="description">
-        <!--article пришлось изменить на div, потому что при валидации была ошибка Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections. -->
         <div class="two-columns">
           <h2 class="two-columns__brief">Главные проблемы в обучении </h2>
           <div class="two-columns__main-text">
@@ -199,6 +198,24 @@
           <a href="#" target="_blank"><img class="resources__logo"  src="./images/logo/resources-n1.svg" alt="лого n+1"></a>
           <a href="#" target="_blank"><img class="resources__logo" src="./images/logo/resources-strelka.svg" alt="лого strelka"></a>
           <a href="#" target="_blank"><img class="resources__logo" src="./images/logo/resources-polka.svg" alt="лого полка"></a>
+        </div>
+      </section>
+      <section class="form">
+        <h3 class="form__title">Форма обратной свзяи</h3>
+        <h4 class="form__subtitle">(Внимание: данная форма создана исключительно в ознакомительных целях и не функционирует)</h4>
+        <div class="form__fields">
+          <input class="form__field" type="text" name="name" placeholder="Ваше имя" required>
+          <input class="form__field" type="text" name="email" placeholder="Email" required>
+          <select required class="form__field form__field_select">
+            <option value="" style="display:none">Ценность представленной информации</option>
+            <option value="1" style="color:black">1 балл</option>
+            <option value="2" style="color:black">2 балла</option>
+            <option value="3" style="color:black">3 балла</option>
+            <option value="4" style="color:black">4 балла</option>
+            <option value="5" style="color:black">5 балла</option>
+          </select>
+          <textarea class="contact__field contact__field_message" type="textarea" name="message" placeholder="Здесь можно написать отзыв" style="padding-top:10px; font-size: 14px;
+          line-height: 19px" required></textarea>
         </div>
       </section>
     </main>
