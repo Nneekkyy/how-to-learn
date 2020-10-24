@@ -1,0 +1,15 @@
+.form__field {
+  margin: 10px 0 10px 0;
+  border: none;
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  padding: 10px 0 10px 10px;
+  min-height: 40px;
+  width: 600px;
+  background-color: #E5E5E5;
+}
+
+.form__field:last-child {
+  margin-bottom: 80px;
+ }

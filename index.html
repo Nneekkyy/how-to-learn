@@ -201,9 +201,9 @@
         </div>
       </section>
       <section class="form">
-        <h3 class="form__title">Форма обратной свзяи</h3>
+        <h3 class="form__title">Форма обратной связи</h3>
         <h4 class="form__subtitle">(Внимание: данная форма создана исключительно в ознакомительных целях и не функционирует)</h4>
-        <div class="form__fields">
+        <form class="form__fields">
           <input class="form__field" type="text" name="name" placeholder="Ваше имя" required>
           <input class="form__field" type="text" name="email" placeholder="Email" required>
           <select required class="form__field form__field_select">
@@ -214,9 +214,9 @@
             <option value="4" style="color:black">4 балла</option>
             <option value="5" style="color:black">5 балла</option>
           </select>
-          <textarea class="contact__field contact__field_message" type="textarea" name="message" placeholder="Здесь можно написать отзыв" style="padding-top:10px; font-size: 14px;
-          line-height: 19px" required></textarea>
-        </div>
+          <textarea class="form__field form__field_message" type="textarea" name="message" placeholder="Здесь можно написать отзыв"></textarea>
+          <input class="form__field form__field_submit" type="submit" name="send" value="Отправить">
+        </form>
       </section>
     </main>
     <footer class="footer">

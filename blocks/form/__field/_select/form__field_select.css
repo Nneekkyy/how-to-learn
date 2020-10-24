@@ -1,0 +1,10 @@
+.form__field_select {
+  width: 600px;
+  background-image: url(../../../../images/arrow.svg);
+  background-repeat: no-repeat;
+  background-position: calc(100% - 20px) center;
+  appearance: none;
+  box-sizing: border-box;
+  appearance: none;
+  box-sizing: content-box;
+}

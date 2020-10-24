@@ -1,0 +1,8 @@
+.form__fields {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  appearance: none;
+}
